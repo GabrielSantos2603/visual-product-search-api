@@ -1,0 +1,32 @@
+{
+  "name": "visual-product-search-api",
+  "version": "1.0.0",
+  "description": "API que encontra produtos à venda a partir da foto de um ambiente, usando LLM com visão e Google Shopping",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "node --watch api/index.js"
+  },
+  "keywords": [
+    "express",
+    "openai",
+    "llm",
+    "vision",
+    "serpapi",
+    "google-shopping"
+  ],
+  "author": "Gabriel Santos",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "openai": "^6.6.0",
+    "serpapi": "^2.2.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
